@@ -1,4 +1,4 @@
-name: DartBot
+name: ArchonBot
 description: A sample command-line application.
 # version: 1.0.0
 # homepage: https://www.example.com
@@ -16,5 +16,7 @@ dependencies:
   html: ^0.15.2
   http: ^0.13.5
   image: ^4.0.15
+  markdown: ^7.0.2
+  sqlite3: ^1.11.0
   system_info: ^1.0.1
   teledart: ^0.5.6

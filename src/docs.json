@@ -1,0 +1,21 @@
+{   
+    "docs":
+        {
+            "archon":"Basicamente, retorna o que é a Archon Security",
+
+            "consul":"Esse comando tem como objetivo retornar se o ID informado está na Black List da Archon ou não; \nPara usa-lo você tem de rodar a seguinte sintaxe: `/consulBlack <Id>`. Ex: /consulBlack 01234567",
+            
+            "help":"Comando basico de ajuda, basta dar um `/help`, se houver muitos bots no grupo, tente usar esse metodo `/help@EstagiEscravoArchon_bot`",
+
+            "cota":"Esse comando tem como objetivo retornar a cotação de uma moeda comparada a outra; \nPara usa-lo você tem de rodar a seguinte sintaxe: `/cota <moeda1> <moeda2>`. Ex: /cota USD BRL",
+
+            "horas":"Retorna a hora atual e de outros paises, basta usar `/horas` já pre-fixados no comando",
+
+            "whois":"Esse comando tem como objetivo retornar as informações de algum dominio; \nPara usa-lo você tem de rodar a seguinte sintaxe: `/whois <site.com.br>` subistituido o <site.com.br> pelo site que você quer os dados. Ex: /whois archon.net.br; \nSite tem de ser de dominio final .br pois é usado o metodo disponibilizado pela registro.br via (RPDA)[rdap.registro.br/domain/registro.br]",
+
+            "add":"Esse é um comando exclusivo para admins e serve para adicionar um usuario a lista negra da Archon Security, possibilitando que tal membro seja banido assim que adentrar ao grupo ou que seja banido de todos os grupos em que o bot se encontra; \nPara usar esse comando você usará a seguinte sintaxe: `/addBlack <Nick> <Id> <Razão`>. Ex /addBlack Kord 01234567 ComendoABundaDeCurioso \nOs argumento passados funcionam da seguinte maneira \n<Nick>: O nick é você que escolhe para que fique mais facil de identificar um membro, pois pode-se atribuir mais ids a um Nick apenas, melhorando a consulta futuramente; \n<Id>: Apenas adicione o Id puro; \n<Razão>: Descreva a razão pela qual você está adicionando esse membro. Obs, não use espacamentos na razão.",
+
+            "remove":"Esse é um comando exclusivo para admins e serve para remover um usuario a lista negra da Archon Security. \nPara usar esse comando você usará a seguinte sintaxe: `/removeBlack <Id>`. Ex: /removeBlack 01234567 \nIsso irá remover o usuario da Black List da Archon"
+        }
+    
+}
